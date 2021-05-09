@@ -13,6 +13,7 @@
 		D97C6866263835E8001AC24F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97C6864263835E8001AC24F /* Main.storyboard */; };
 		D97C6868263835E9001AC24F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97C6867263835E9001AC24F /* Assets.xcassets */; };
 		D97C686B263835E9001AC24F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97C6869263835E9001AC24F /* LaunchScreen.storyboard */; };
+		D97C687526386648001AC24F /* setTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97C687426386648001AC24F /* setTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D97C6867263835E9001AC24F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D97C686A263835E9001AC24F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D97C686C263835E9001AC24F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D97C687426386648001AC24F /* setTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				D97C6860263835E8001AC24F /* SceneDelegate.swift */,
 				D97C6862263835E8001AC24F /* ViewController.swift */,
 				D97C6864263835E8001AC24F /* Main.storyboard */,
+				D97C687426386648001AC24F /* setTableViewController.swift */,
 				D97C6867263835E9001AC24F /* Assets.xcassets */,
 				D97C6869263835E9001AC24F /* LaunchScreen.storyboard */,
 				D97C686C263835E9001AC24F /* Info.plist */,
@@ -139,6 +142,7 @@
 			files = (
 				D97C6863263835E8001AC24F /* ViewController.swift in Sources */,
 				D97C685F263835E8001AC24F /* AppDelegate.swift in Sources */,
+				D97C687526386648001AC24F /* setTableViewController.swift in Sources */,
 				D97C6861263835E8001AC24F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.UIStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.UIStepper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
